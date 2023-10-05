@@ -5,7 +5,7 @@ local PhantomForcesWindow = Library:NewWindow("Blade Ball Admin Version")
 local KillingCheats = PhantomForcesWindow:NewSection("Main")
 
 KillingCheats:CreateButton("Auto Block", function()
-     loadstring(Game:HttpGet("https://pastebin.com/raw/tBPM98Hx"))()
+     loadstring(Game:HttpGet("https://pastebin.com/raw/y0C6tw07"))()
 end)
 
 KillingCheats:CreateButton("Esp", function()
