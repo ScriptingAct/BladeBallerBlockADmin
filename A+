@@ -15,7 +15,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Auto Blocks",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/AbQ5DFEg",true))()
   	end    
 })
 
