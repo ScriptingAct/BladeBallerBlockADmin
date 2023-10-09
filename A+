@@ -1,31 +1,46 @@
-local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/ZDn0R706')))()
+local Window = OrionLib:MakeWindow({Name = "Project Hub Perm Ver", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
-local PhantomForcesWindow = Library:NewWindow("Blade Ball Admin Version")
+local Tab = Window:MakeTab({
+	Name = "Auto Blocks",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
-local KillingCheats = PhantomForcesWindow:NewSection("Main")
+local Section = Tab:AddSection({
+	Name = "Very OP!"
+})
 
-KillingCheats:CreateButton("Auto Block", function()
-     loadstring(Game:HttpGet("https://pastebin.com/raw/y0C6tw07"))()
-end)
 
-KillingCheats:CreateButton("Esp", function()
-     loadstring(Game:HttpGet("https://pastebin.com/raw/7K1Jhmck"))()
-end)
+Tab:AddButton({
+	Name = "Auto Blocks",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
+  	end    
+})
 
-KillingCheats:CreateButton("Use Any Abilities", function()
-     loadstring(Game:HttpGet("https://pastebin.com/raw/W4vVx0ti"))()
-end)
+local Tab = Window:MakeTab({
+	Name = "Esp",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
-KillingCheats:CreateButton("Blade Ball FREE SCRIPT", function()
-     loadstring(Game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
-end)
+local Section = Tab:AddSection({
+	Name = "Can Esp Old Join player"
+})
 
-KillingCheats:CreateButton("Blade Ball Script", function()
-     loadstring(Game:HttpGet("https://pastebin.com/raw/4FtASNih"))()
-end)
+Tab:AddButton({
+	Name = "ESP",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/7K1Jhmck",true))()
+  	end    
+})
 
-local KillingCheats = PhantomForcesWindow:NewSection("Setting")
 
-KillingCheats:CreateButton("Rejoin", function()
-     loadstring(Game:HttpGet("https://pastebin.com/raw/BK6bgaFY"))()
-end)
+
+OrionLib:MakeNotification({
+	Name = "Project",
+	Content = "Welcome My script no key system",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
